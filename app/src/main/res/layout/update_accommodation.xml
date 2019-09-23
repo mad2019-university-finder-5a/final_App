@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/accommodation_background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText  android:id="@+id/editAccommodationName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name" />
+
+    <EditText  android:id="@+id/editAccommodationAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Address" />
+
+    <EditText  android:id="@+id/editAccommodationContactNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Contact Number" />
+
+    <EditText  android:id="@+id/editAccommodationContactPerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789"
+        android:hint="Enter Contact Person"/>
+
+    <Button    android:id="@+id/buttonUpdateAccommodation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update" />
+</LinearLayout>

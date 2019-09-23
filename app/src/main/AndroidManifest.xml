@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ozedu">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SettlingInAustralia"></activity>
+        <activity android:name=".RestaurantWrapper" />
+        <activity android:name=".RestaurantsDetails" />
+        <activity android:name=".LivingInAustralia" />
+        <activity android:name=".Expenses" />
+        <activity android:name=".ExpandableListAd" />
+        <activity android:name=".CustomOnItemSelectedListener" />
+        <activity android:name=".CuisinesAvailableInDifferentStates" />
+        <activity android:name=".AllAccommodations" />
+        <activity android:name=".AllAboutAustralia" />
+        <activity android:name=".AccommodationCreator" />
+        <activity android:name=".AccommodationAdapter" />
+        <activity android:name=".Accommodation" />
+        <activity android:name=".UniversityofNotradame" />
+        <activity android:name=".Universityofsydney" />
+        <activity android:name=".UniversitySouthwales" />
+        <activity android:name=".UniversityofQueensland" />
+        <activity android:name=".Australiannationaluniversity" />
+        <activity android:name=".Australiancatholicuniversity" />
+        <activity android:name=".ASearchActivity" />
+        <activity android:name=".UserContactActivity" />
+        <activity android:name=".JobSearchActivity" />
+        <activity android:name=".contact" />
+        <activity android:name=".FeedbackActivity" />
+        <activity android:name=".academicActivity" />
+        <activity android:name=".personalActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".AdminSettingActivity" />
+        <activity android:name=".ContactUSActivity" />
+        <activity android:name=".SettingContactActivity" />
+        <activity android:name=".PartTimeActivity" />
+        <activity android:name=".JobFinderActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

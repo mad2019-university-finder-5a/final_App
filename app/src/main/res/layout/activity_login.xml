@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="127dp"
+        android:layout_marginTop="50dp" />
+
+    <EditText
+        android:id="@+id/edittext_user"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="2dp"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:background="#ffffff"
+        android:hint="username"
+        tools:ignore="InvalidId" />
+
+    <EditText
+        android:id="@+id/edittext_pass"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/icon_password"
+        android:background="#ffffff"
+        android:hint="password"
+        android:inputType="textPassword" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Password"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:id="@+id/showpassword" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#04ea00"
+        android:text="Login"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:text="Not registered"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textview_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:paddingLeft="10dp"
+            android:text="Register"
+            android:textColor="#04ea00"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_Googlelogin"
+        android:layout_width="190dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="#F00E25"
+        android:text="Google Login"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

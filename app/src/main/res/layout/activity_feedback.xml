@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#263238"
+    tools:context=".FeedbackActivity">
+
+    <EditText
+        android:id="@+id/Sname"
+        android:background="#b3e5fc"
+        android:textColor="#4fc3f7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Name"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/ContactNo"
+        android:background="#b3e5fc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="ContactNo"
+        android:layout_below="@id/Sname"
+        android:textColor="#4fc3f7"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:background="#b3e5fc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="email"
+        android:layout_below="@id/ContactNo"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/feedback"
+        android:background="#b3e5fc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="feedback"
+        android:layout_below="@id/email"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/FID"
+        android:background="#b3e5fc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="ID"
+        android:layout_below="@id/feedback"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/Add"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/feedback"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="82dp"
+        android:background="#ef9a9a"
+        android:text="Add FeedBack"
+        android:textColor="#ff0900" />
+
+    <Button
+        android:id="@+id/View"
+        android:layout_width="140dp"
+        android:layout_height="61dp"
+        android:layout_below="@id/feedback"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="146dp"
+        android:layout_marginRight="40dp"
+        android:background="#ef9a9a"
+        android:text="View FeedBack"
+        android:textColor="#ff0900" />
+
+    <Button
+        android:id="@+id/Update"
+        android:layout_width="136dp"
+        android:layout_height="62dp"
+        android:layout_below="@id/View"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="40dp"
+        android:background="#ef9a9a"
+        android:text="Update FeedBack"
+        android:textColor="#ff0900" />
+
+    <Button
+        android:id="@+id/Delete"
+        android:layout_width="138dp"
+        android:layout_height="62dp"
+        android:layout_below="@id/Update"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="40dp"
+        android:background="#ef9a9a"
+        android:text="Delete FeedBack"
+        android:textColor="#ff0900" />
+
+
+</RelativeLayout>
